@@ -1,4 +1,4 @@
 language: java
-script: 
+script:
 - ./gradlew test jacocoTestReport
 - ./gradlew clean build -x integrationTest
