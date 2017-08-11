@@ -12,6 +12,7 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <bytecodeTargetLevel>
+      <module name="toy-robot_integrationTest" target="1.8" />
       <module name="toy-robot_main" target="1.8" />
       <module name="toy-robot_test" target="1.8" />
     </bytecodeTargetLevel>

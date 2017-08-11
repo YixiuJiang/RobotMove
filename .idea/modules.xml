@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy-robot.iml" filepath="$PROJECT_DIR$/.idea/modules/toy-robot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy-robot_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/toy-robot_integrationTest.iml" group="toy-robot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy-robot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/toy-robot_main.iml" group="toy-robot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy-robot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/toy-robot_test.iml" group="toy-robot" />
     </modules>
