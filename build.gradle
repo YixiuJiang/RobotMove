@@ -72,7 +72,7 @@ task integrationTest(type: Test) {
 }
 
 jar {
-    baseName = 'com-myob-codeexercise-payslip'
+    baseName = 'com-codetest-toy-robot'
     version = "${version}"
 }
 
