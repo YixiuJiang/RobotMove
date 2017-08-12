@@ -63,6 +63,8 @@ public class GameService {
   private void moveRobot(Robot robot) {
     if (!isRobotOnEdge(robot)) {
       robot.move();
+    }else {
+      LOGGER.info("Robot on edge, discard this move!");
     }
   }
 
