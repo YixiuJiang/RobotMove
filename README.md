@@ -21,12 +21,15 @@ Linux/Mac:
 
 ## Run
 1. Simply run `./gradlew bootRun`
-4. By default it will pickup input file here `src/main/resource/input.command` and write output into the folder where you run this app.
+4. By default it will pickup input file here `src/main/resource/input.command` and write output file `output.result` into the folder where you run this app.
 
 ## Test
 1. Simply run `./gradlew test` 
 2. To check test coverage, run `./gradlew test jacocoTestReport`
 3. Check this test report: [test report](./build/jacocoHtml/index.html)
+
+## Integration test
+1. run `./gradlew clean build -x integrationTest`
 
 ##Configuration
 1. Input and output file are configurable here: `src/main/resource/application.yml
