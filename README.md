@@ -1,6 +1,6 @@
 ANZ toy robot code test
 ======
-This is a simple spring boot app to simulate toy robot movement. Currently it only support CSV input and output.
+This is a simple spring boot app to simulate toy robot movement. Currently it only support file input and output.
 Please check [requirement.md](./requirement.md) for requirements.
 
 ##Prerequirement
