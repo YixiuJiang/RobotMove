@@ -1,4 +1,4 @@
-ANZ code test
+ANZ toy robot code test
 ======
 This is a simple spring boot app to simulate toy robot movement. Currently it only support CSV input and output.
 Please check [requirement.md](./requirement.md) for requirements.
@@ -21,17 +21,19 @@ Linux/Mac:
 
 ## Run
 1. Simply run `./gradlew bootRun`
-4. By default it will pickup csv here `src/main/resource/input.csv` and write output CSV into the folder where you run this app.
+4. By default it will pickup input file here `src/main/resource/input.command` and write output into the folder where you run this app.
 
 ## Test
 1. Simply run `./gradlew test` 
 2. To check test coverage, run `./gradlew test jacocoTestReport`
-
-##Integration test
-1. `./gradlew clean build -x integrationTest`
+3. Check this test report: [test report](./build/jacocoHtml/index.html)
 
 ##Configuration
-1. Tax rate and input CSV file is configurable here: `src/main/resource/application.yml
-2. You can specify your input csv and out put csv by using `./gradlew bootRun -DinputCSVFile=/youroutputcsvfilepath -DoutputCSVFile=/youroutputcsvfilepath`
+1. Input and output file are configurable here: `src/main/resource/application.yml
+2. You can specify your input csv and out put csv by using `./gradlew bootRun -DGameInputFile=/yourInputFilePath -DGameOutputFile=/yourOutputfilepath`
+3. If you don't specify absolute file path, it will read/write file from classpath
+4. It will also output result into log.
 
+##Important information here!!!!!!
+1. App will discard invalid input like invalid commands or invalid move.
 

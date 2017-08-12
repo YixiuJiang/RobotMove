@@ -18,3 +18,7 @@ target/
 #gradle
 .gradle
 build/
+
+#app output
+output.result
+outputTest.result

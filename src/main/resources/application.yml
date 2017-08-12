@@ -1,0 +1,5 @@
+spring:
+  application.name: ToyRobot
+
+gameInputFile: /input.command
+gameOutputFile: output.result

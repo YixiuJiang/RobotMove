@@ -1,6 +1,6 @@
 package com.codetest.toyrobot.model;
 
-public class Command {
+public enum Command {
 
-
+  PLACE, MOVE, LEFT, RIGHT, REPORT;
 }
