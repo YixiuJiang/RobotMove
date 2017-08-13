@@ -27,11 +27,4 @@ public class GameApplicationTest {
     Mockito.verify(gameService).play();
   }
 
-
-  @Test
-  public void testRunWithArgs() throws Exception {
-    app.run();
-    Mockito.verify(gameService).play();
-  }
-
 }
